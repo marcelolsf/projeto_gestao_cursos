@@ -1,0 +1,30 @@
+.table {
+    text-align: center;
+}
+
+table.table td a.delete:hover {
+    color: red;
+}
+
+table.table td a.edit:hover {
+    color: black;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-input {
+    border-radius: 20px !important;
+    border-color: #ced4da !important;
+}
+
+.search-input:focus {
+    box-shadow: none !important;
+    border-color: #80bdff;
+}
+
+.table {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/addregistro.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Cadastro de Registro</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Cadastro de Registro</h2>
+        <form id="registroForm">
+            <div class="mb-3">
+                <label for="codigoRa" class="form-label">Código Curso:</label>
+                <input type="te xt" class="form-control" id="codigoRa" name="codigoRa">
+            </div>
+            <div class="mb-3">
+                <label for="curso" class="form-label">Curso:</label>
+                <input type="text" class="form-control" id="curso" name="curso">
+            </div>
+            <div class="mb-3">
+                <label for="coordenador" class="form-label">Coordenador:</label>
+                <input type="text" class="form-control" id="coordenador" name="coordenador">
+            </div>
+            <div class="mb-3">
+                <label for="duracao" class="form-label">Duração:</label>
+                <input type="text" class="form-control" id="duracao" name="duracao">
+            </div>
+            <div class="mb-3">
+                <label for="areaCurso" class="form-label">Área do Curso:</label>
+                <input type="text" class="form-control" id="areaCurso" name="areaCurso">
+            </div>
+            <div class="mb-3">
+                <label for="nivel" class="form-label">Nível:</label>
+                <input type="text" class="form-control" id="nivel" name="nivel">
+            </div>
+            <button type="button" onclick="validarFormulario()" class="btn btn-primary">Cadastrar</button>
+        </form>
+    </div>
+
+    <script src="js/addregistro.js"></script>
+</body>
+
+</html>
